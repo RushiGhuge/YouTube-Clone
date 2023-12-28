@@ -1,0 +1,172 @@
+@media (max-width:900px) {
+  .menu-box>p {
+    /* display: none; */
+  }
+
+  .left-container {
+    width: 210px;
+    height: 100vh;
+    display: none;
+  }
+
+  .boxs {
+    padding: 0px;
+    margin: 10px;
+  }
+}
+
+@media (max-width:800px) {
+
+  #home-video-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .mick {
+    display: none;
+  }
+
+  .video-card {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+  }
+
+  #sm-side-container {
+    display: none;
+  }
+
+  .video-description {
+    display: none;
+  }
+
+  #bg-side-bar {
+    display: none;
+  }
+  #Innerbody{
+    opacity: 1;
+  }
+}
+
+@media (max-width:500px) {
+  body {
+    font-size: 14px;
+    background: black;
+  }
+
+  #right-container {
+    padding: 10px 0;
+  }
+
+  .nav-items {
+    top: 40px;
+    padding: 0 5px;
+  }
+
+  .thumb-img>img {
+    border-radius: 0px;
+  }
+
+  .video-description {
+    display: none;
+  }
+
+  .video-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 10px;
+    padding: 20px;
+  }
+
+  #profile-none {
+    display: block;
+  }
+
+  .left-container {
+    width: 50px;
+    height: 100vh;
+  }
+
+  .boxs {
+    padding: 0px;
+    margin: 5px;
+  }
+
+  #home-video-container {
+    display: grid;
+    grid-template-columns: 1fr;
+
+  }
+
+  .create {
+    display: none;
+  }
+
+  .bell-icon {
+    display: none;
+  }
+
+  .search-bar>input {
+    padding: 5px;
+    width: 100%;
+    padding-left: 10px;
+    outline: none;
+  }
+
+  #searchBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .search-bar {
+    border: 1px solid #222222;
+    border-radius: 50px;
+    background: #222222;
+    width: 100%;
+    margin-right: 2px;
+  }
+
+  .center-navbar {
+    display: flex;
+    width: 50%;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .video-card {
+    display: grid;
+    grid-template-columns: 2fr;
+  }
+
+  .video-details {
+    padding: 10px;
+  }
+
+  .home-card {
+    padding: 0px 0;
+  }
+
+  .cardDetails {
+    display: flex;
+    gap: 10px;
+    padding-top: 0;
+  }
+}
+
+@media (max-width:400px) {
+  .nav-bar {
+    padding: 8px 4px 8px 7px;
+  }
+
+  #innerNavBar {
+    padding: 0px 0px;
+    padding-top: 10px;
+  }
+}
+  @media(min-width:800px) {
+    #left-container-side-bar {
+      /* display: none; */
+    }
+  }
